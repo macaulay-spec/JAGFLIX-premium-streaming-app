@@ -11,7 +11,7 @@ Production-oriented Next.js 15 / React 19 streaming platform foundation powered 
 - Premium glassmorphic responsive UI with mobile bottom navigation
 - Search, details, watch/player, downloads, profile, football, auth, admin, offline, 404, and error screens
 - Vidstack player integration for HLS/MP4 sources returned by `/api/media`
-- Supabase Auth client factory and SQL schema for user/profile/history/watchlist/favorites/ratings/reviews/notifications/preferences/settings
+- Local-first guest profiles, settings, watch history, watchlist, favorites, ratings, and download queue storage
 - PWA manifest and service worker shell cache
 - ESLint, TypeScript strict mode, and production build support
 
@@ -21,8 +21,6 @@ Create `.env.local` locally or configure deployment secrets:
 
 ```bash
 ZST_API_KEY=your_server_only_zst_key
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
 Never expose `ZST_API_KEY` in browser code. All browser requests go through `/api/zst/[endpoint]`.
