@@ -1,0 +1,10 @@
+{
+  "name": "JagFlix Premium Streaming",
+  "short_name": "JagFlix",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05060a",
+  "theme_color": "#05060a",
+  "description": "Premium streaming powered by the official ZST Labs Movie API.",
+  "icons": []
+}

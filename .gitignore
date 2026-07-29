@@ -1,0 +1,15 @@
+node_modules
+.next
+.env
+.env*.local
+.vercel
+coverage
+dist
+build
+.DS_Store
+*.log
+
+tsconfig.tsbuildinfo
+
+# Generated local previews
+homepage-preview.*
